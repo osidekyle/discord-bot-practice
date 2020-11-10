@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-practice",
+  "version": "1.0.0",
+  "description": "Learning how to make a discord bot with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./src/bot.js",
+    "dev":"nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osidekyle/discord-bot-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osidekyle/discord-bot-practice/issues"
+  },
+  "homepage": "https://github.com/osidekyle/discord-bot-practice#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
